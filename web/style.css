@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#remoteStream {
+  border: 1px solid #999;
+  width: 98%;
+  max-width: 500px;
+}
+
+#localStream {
+  border: 1px solid #999;
+  width: 98%;
+  max-width: 500px;
+}
+
+#toggleMic {
+  width: 4vh;
+  height: 4vh;
+  margin: 1em;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+#toggleMic.muted {
+  color: red;
+}
